@@ -1,7 +1,7 @@
 
 
 add_executable(SystemcDmbTest
-  ${CMAKE_CURRENT_SOURCE_DIR}/bus.test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/dmg_bus.test.cpp
 )
 
 

@@ -9,8 +9,8 @@ target_link_libraries(SystemcDmg
 
 
 add_library(SystemcDmgLib
-    ${CMAKE_CURRENT_SOURCE_DIR}/bus.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/bus.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/dmg_bus.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/dmg_bus.h
 )
 
 target_link_libraries(SystemcDmgLib
