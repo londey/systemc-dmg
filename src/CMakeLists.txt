@@ -14,7 +14,7 @@ add_library(SystemcDmgLib
 )
 
 target_link_libraries(SystemcDmgLib
-    PUBLIC systemc
+    PUBLIC SystemC::systemc
 )
 
 target_include_directories(SystemcDmgLib
