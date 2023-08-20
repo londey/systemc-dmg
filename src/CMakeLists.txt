@@ -7,10 +7,10 @@ target_link_libraries(SystemcDmg
     SystemcDmgLib
 )
 
+file(GLOB_RECURSE DMG_SOURCES "dmg_*.cpp" "dmg_*.hpp")
 
 add_library(SystemcDmgLib
-    ${CMAKE_CURRENT_SOURCE_DIR}/dmg_bus.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/dmg_bus.h
+    ${DMG_SOURCES}
 )
 
 target_link_libraries(SystemcDmgLib

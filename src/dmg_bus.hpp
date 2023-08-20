@@ -2,7 +2,7 @@
 
 #include <systemc>
 
-namespace sc_dmg
+namespace dmg
 {
 
 struct DmgBus : public sc_core::sc_module
